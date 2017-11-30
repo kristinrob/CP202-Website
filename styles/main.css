@@ -15,7 +15,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
 }
 
 .bg-gradient {
-  background: linear-gradient(270deg, #000000f6 0%, #860ce9 100%);
+  background: linear-gradient(270deg, #fffffff6 0%, #2ab3b3 100%);
 }
 
 /* Header Section */
@@ -95,7 +95,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
 }
 
 .aa-screenshots {
-  background-color: rgb(253, 245, 245);
+  background-color: rgb(242, 237, 245);
 }
 
 @media (max-width: 992px) {
@@ -122,16 +122,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
 
 .aa-price-package .aa-price {
   padding-bottom: 1.5rem;
-  background-color: rgb(253, 245, 245);
+  background-color: rgba(230, 36, 36, 0.493);
 }
 
 .aa-price-package .aa-price .btn {
   width: 8rem;
 }
 
-.aa-price-package .aa-price .aa-price-section {
+.aa-price-package .aa-price .aa-price-active {
   padding: 25px 5px;
-  background-color: rgba(241, 64, 64, 0.801);
+  background-color: rgb(255, 43, 255);
   margin-left: -1.25rem;
   margin-right: -1.25rem;
   font-size: 28px;
@@ -139,6 +139,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
   font-weight: 600;
 }
 
+.aa-price-package .aa-price .aa-price-section {
+  padding: 25px 5px;
+  background-color: rgb(255, 255, 255);
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+  font-size: 28px;
+  font-family: "Dosis", "Helvetica", Arial, sans-serif;
+  font-weight: 600;
+}
 .aa-price-package .aa-price .aa-price-section span {
   font-family: "Dosis", "Helvetica", Arial, sans-serif;
   font-weight: 600;
@@ -147,11 +156,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
 
 .aa-price-package .aa-price ul li {
   line-height: 3;
-  border-bottom: 1px dashed #eee;
+  border-bottom: 1px  rgb(0, 0, 0);
 }
 
 .aa-price-package .aa-price-active {
-  background-color: rgb(253, 245, 245);
+  background-color: rgba(252, 237, 22, 0.616);
 }
 
 .aa-price-package .aa-price-active .btn {
@@ -182,13 +191,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
 }
 
 .aa-testimonials-section .aa-testimonials .aa-testimonials-body {
-  background-color: rgb(253, 245, 245);
+  background-color: rgba(92, 212, 55, 0.301);
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-radius: 12px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 10px -4px;
+  box-shadow: rgba(224, 31, 31, 0.15) 0px 6px 10px -4px;
 }
 
 .aa-testimonials-section .aa-testimonials .aa-testimonials-body .col-md-7 {
@@ -243,7 +252,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
 }
 
 .download-section .aa-windows:hover i {
-  color: #fbff10;
+  color: #1028ff;
 }
 
 @media (max-width: 992px) {
