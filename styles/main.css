@@ -15,7 +15,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
 }
 
 .bg-gradient {
-  background: linear-gradient(270deg, #fffffff6 0%, #2ab3b3 100%);
+  background: linear-gradient(270deg, #eb0707f6 0%, #2ab335 100%);
 }
 
 /* Header Section */
